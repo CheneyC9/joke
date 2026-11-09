@@ -8,7 +8,7 @@ import { join } from 'node:path';
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
 const JOKE =
-  'The agent asked to drop the production database. I clicked "Allow once." I have boundaries.';
+  'My agent fixed the failing test the way a landlord fixes a leak: by removing the tenant.';
 
 // The gate: UTF-8, 1..280 code points, not only white space. The judge reads the exact bytes,
 // so the joke carries no trailing newline. Fail loudly here rather than get refused there.
